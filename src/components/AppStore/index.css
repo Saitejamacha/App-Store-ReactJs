@@ -1,0 +1,109 @@
+.bg-con {
+  background-image: linear-gradient(#dfe2e5, #dfe2e5, #ace0f9);
+  width: 100vw;
+  background-size: cover;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 45px;
+  font-family: Bree Serif;
+}
+.search-con {
+  display: flex;
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 25vw;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-box {
+  width: 20vw;
+  height: 38px;
+  background-color: transparent;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.search-icon {
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
+}
+.tabDetailsList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 25vw;
+  size: '1';
+  margin-top: -16px;
+  color: grey;
+}
+
+.app-list {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .search-con {
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 50vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-box {
+    width: 40vw;
+    height: 38px;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+  }
+  .bg-con {
+    background-image: linear-gradient(#dfe2e5, #dfe2e5, #ace0f9);
+    width: 100vw;
+    background-size: cover;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .bg-con {
+    background-image: linear-gradient(#dfe2e5, #dfe2e5, #ace0f9);
+    width: 100vw;
+    background-size: cover;
+    height: 130vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+}
